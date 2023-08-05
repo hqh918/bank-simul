@@ -1,5 +1,5 @@
 import datetime
-with open("C:\\Users\hqh_c\Desktop\info.txt") as f1:  # 引入文件a地址，下同
+with open("C:\\Users\hqh_c\Desktop\info.txt") as f1:
     date1 = f1.readlines()[0]  # 获取账户状态
 with open("C:\\Users\hqh_c\Desktop\info.txt") as f2:
     date2 = f2.readlines()[1]  # 获取账号
@@ -23,7 +23,7 @@ date5 = int(date5)
 datetime1 = datetime.datetime.now().strftime('%Y-%m-%d  %H:%M:%S')  # 获取当前时间并存储到datetime1
 name = int(input('输入账号：'))
 if name == date2:
-    fp = open('C:\\Users\hqh_c\Desktop\history.txt', 'a+')  # 引入文件b地址，下同
+    fp = open('C:\\Users\hqh_c\Desktop\history.txt', 'a+')
     print('时间:', datetime1, '   操作：尝试登录', file=fp)
     fp.close()
     if date1 == 0:
@@ -48,6 +48,11 @@ if name == date2:
                 f = open('C:\\Users\hqh_c\Desktop\info.txt', 'w+')
                 f.writelines(flist)
             else:
+                f = open('C:\\Users\hqh_c\Desktop\info.txt', 'r+')
+                flist = f.readlines()
+                flist[4] = '3\n' 
+                f = open('C:\\Users\hqh_c\Desktop\info.txt', 'w+')
+                f.writelines(flist)
                 datetime1 = datetime.datetime.now().strftime('%Y-%m-%d  %H:%M:%S')
                 fp = open('C:\\Users\hqh_c\Desktop\history.txt', 'a+')
                 print('时间:', datetime1, '   操作：登录成功', file=fp)
