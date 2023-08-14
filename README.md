@@ -13,14 +13,16 @@ Step4：第三行填入账户密码
 step5：第四行填入余额  
 step6：第五行填入剩余密码输入次数，你可以自行更改  
 注意：账户信息必须为数字，不能包含字母、下划线等  
-正确创建是这个样子[[查看示例]](https://s4.aconvert.com/convert/p3r68-cdx67/a8k5l-ubfbf.png
-)
+正确创建是这个样子  
+<img src="./picture/1.png" width = "500" height = "" alt="示例1" align=center />
 #### 2.2日志信息的创建和填入
 Step1：创建一个用于保存日志的.txt文件(后文用b代替此文件)    
-step2：日志信息将由程序自动填入
+step2：日志信息将由程序自动填入  
+效果图  
+<img src="./picture/2.png" width = "500" height = "" alt="效果图2" align=center />
 ### 3.代码的完善
 修改代码，填入将文件a和文件b的新地址，填入的具体位置可以在代码注释中查看
 ### 4.运行程序
 使用pycharm、VS Code或py.exe运行程序  
-[查看运行示例](https://s4.aconvert.com/convert/p3r68-cdx67/acicn-ap1fg.jpg
-)
+完整执行效果  
+<img src="./picture/3.jpg" width = "500" height = "" alt="效果图3" align=center />

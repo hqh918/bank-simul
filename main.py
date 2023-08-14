@@ -61,8 +61,8 @@ if name == date2:
                 print('取款w')
                 print('查询s')  # 功能提示
                 opt = input('选择操作：')  # 选择要办理的业务
-                if opt == 'd' or opt == 'w':
-                    if opt == 'd':
+                if opt == 'd' or opt == 'w' or opt == 'D' or opt == 'W':
+                    if opt == 'd' or opt == 'D':
                         datetime1 = datetime.datetime.now().strftime('%Y-%m-%d  %H:%M:%S')
                         fp = open('C:\\Users\hqh_c\Desktop\history.txt', 'a+')
                         print('时间:', datetime1, '   操作：尝试存款', file=fp)
