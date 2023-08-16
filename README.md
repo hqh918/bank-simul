@@ -19,10 +19,10 @@ step6：第五行填入剩余密码输入次数，你可以自行更改
 Step1：创建一个用于保存日志的.txt文件(后文用b代替此文件)    
 step2：日志信息将由程序自动填入  
 效果图  
-<img src="./picture/2.png" width = "500" height = "" alt="效果图2" align=center />
+<img src="./picture/2.PNG" width = "500" height = "" alt="效果图2" align=center />
 ### 3.代码的完善
 修改代码，填入将文件a和文件b的新地址，填入的具体位置可以在代码注释中查看
 ### 4.运行程序
 使用pycharm、VS Code或py.exe运行程序  
 完整执行效果  
-<img src="./picture/3.jpg" width = "500" height = "" alt="效果图3" align=center />
+<img src="./picture/3.JPG" width = "500" height = "" alt="效果图3" align=center />
